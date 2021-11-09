@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Generic options:
+
+#SBATCH --account=bdncl02    # Run job under project <project>
+#SBATCH --time=23:30:00         # Run for a max of 1 hour
+
+# Node resources:
+# (choose between 1-4 gpus per node)
+
+#SBATCH --partition=gpu    # Choose either "gpu" or "infer" node type
+#SBATCH --nodes=1          # Resources from a single node
+#SBATCH --gres=gpu:1       # One GPU per node (plus 25% of node CPU and RAM per GPU)
+
+
+nvidia-smi  # Display available gpu resources
+eval "$(/projects/bdncl02/mat/software/conda3/bin/conda shell.bash hook)"
+conda activate omm2
+export OPENMM_DEFAULT_PLATFORM=CUDA
+# Place other commands here
+python re_vac.py
+#conda install openmmtools
+echo "end of job"

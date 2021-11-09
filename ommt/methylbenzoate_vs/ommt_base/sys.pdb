@@ -1,0 +1,40 @@
+REMARK   1 CREATED WITH OPENMM 7.5, 2021-10-12
+HETATM    1  C00 LIG A   1       1.000   1.000   0.000  1.00  0.00           C  
+HETATM    2  C01 LIG A   1      -0.414   1.000   0.000  1.00  0.00           C  
+HETATM    3  C02 LIG A   1       1.714   2.216  -0.004  1.00  0.00           C  
+HETATM    4  H03 LIG A   1       1.540   0.064   0.004  1.00  0.00           H  
+HETATM    5  C04 LIG A   1      -1.100   2.234  -0.004  1.00  0.00           C  
+HETATM    6  C05 LIG A   1      -1.196  -0.284   0.005  1.00  0.00           C  
+HETATM    7  C06 LIG A   1      -0.387   3.450  -0.009  1.00  0.00           C  
+HETATM    8  H07 LIG A   1      -2.181   2.237  -0.005  1.00  0.00           H  
+HETATM    9  C08 LIG A   1       1.021   3.441  -0.009  1.00  0.00           C  
+HETATM   10  H09 LIG A   1      -0.924   4.388  -0.013  1.00  0.00           H  
+HETATM   11  H0A LIG A   1       1.568   4.373  -0.012  1.00  0.00           H  
+HETATM   12  H0B LIG A   1       2.795   2.205  -0.004  1.00  0.00           H  
+HETATM   13  O0C LIG A   1      -0.432  -1.391   0.009  1.00  0.00           O  
+HETATM   14  O0D LIG A   1      -2.427  -0.288   0.005  1.00  0.00           O  
+HETATM   15  C0E LIG A   1      -1.065  -2.660   0.014  1.00  0.00           C  
+HETATM   16  H0F LIG A   1      -0.321  -3.455   0.016  1.00  0.00           H  
+HETATM   17  H0G LIG A   1      -1.695  -2.778  -0.870  1.00  0.00           H  
+HETATM   18  H0H LIG A   1      -1.695  -2.771   0.898  1.00  0.00           H  
+HETATM   19 X1   LIG A   1      -1.164  -1.422   0.009  1.00  0.00          EP  
+TER      20      LIG A   1
+CONECT    1    2    3    4
+CONECT    2    1    5    6
+CONECT    3    1    9   12
+CONECT    4    1
+CONECT    5    2    7    8
+CONECT    6    2   13   14
+CONECT    7    5    9   10
+CONECT    8    5
+CONECT    9    3    7   11
+CONECT   10    7
+CONECT   11    9
+CONECT   12    3
+CONECT   13    6   15
+CONECT   14    6
+CONECT   15   13   16   17   18
+CONECT   16   15
+CONECT   17   15
+CONECT   18   15
+END

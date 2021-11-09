@@ -1,0 +1,42 @@
+REMARK   0 Title: BOSS Z-Matrix                                                  
+REMARK   1 Creator: XChemEdit/AUTOZMAT                                           
+REMARK   2 WL Jorgensen Group, Dept. of Chemistry, Yale University               
+HETATM    1  C00 LIG A   1      1.0000  1.0000  0.0000  0.00  0.00   0           
+HETATM    2  C01 LIG A   1     -0.4140  1.0000  0.0000  0.00  0.00   0           
+HETATM    3  C02 LIG A   1      1.7142  2.2155 -0.0045  0.00  0.00   0           
+HETATM    4  H03 LIG A   1      1.5398  0.0638  0.0035  0.00  0.00   0           
+HETATM    5  C04 LIG A   1     -1.0997  2.2342 -0.0045  0.00  0.00   0           
+HETATM    6  C05 LIG A   1     -1.1955 -0.2843  0.0047  0.00  0.00   0           
+HETATM    7  C06 LIG A   1     -0.3874  3.4504 -0.0090  0.00  0.00   0           
+HETATM    8  H07 LIG A   1     -2.1813  2.2369 -0.0046  0.00  0.00   0           
+HETATM    9  C08 LIG A   1      1.0208  3.4414 -0.0090  0.00  0.00   0           
+HETATM   10  H09 LIG A   1     -0.9242  4.3883 -0.0125  0.00  0.00   0           
+HETATM   11  H0A LIG A   1      1.5680  4.3735 -0.0124  0.00  0.00   0           
+HETATM   12  H0B LIG A   1      2.7948  2.2052 -0.0044  0.00  0.00   0           
+HETATM   13  O0C LIG A   1     -0.4320 -1.3914  0.0088  0.00  0.00   0           
+HETATM   14  O0D LIG A   1     -2.4271 -0.2884  0.0047  0.00  0.00   0           
+HETATM   15  C0E LIG A   1     -1.0655 -2.6599  0.0135  0.00  0.00   0           
+HETATM   16  H0F LIG A   1     -0.3214 -3.4554  0.0164  0.00  0.00   0           
+HETATM   17  H0G LIG A   1     -1.6949 -2.7776 -0.8698  0.00  0.00   0           
+HETATM   18  H0H LIG A   1     -1.6949 -2.7711  0.8976  0.00  0.00   0           
+TER
+CONECT    1    2    3    4    0    0    0    0    0    0    0                    
+CONECT    2    1    5    6    0    0    0    0    0    0    0                    
+CONECT    3    1    9   12    0    0    0    0    0    0    0                    
+CONECT    4    1    0    0    0    0    0    0    0    0    0                    
+CONECT    5    2    7    8    0    0    0    0    0    0    0                    
+CONECT    6    2   13   14    0    0    0    0    0    0    0                    
+CONECT    7    5    9   10    0    0    0    0    0    0    0                    
+CONECT    8    5    0    0    0    0    0    0    0    0    0                    
+CONECT    9    3    7   11    0    0    0    0    0    0    0                    
+CONECT   10    7    0    0    0    0    0    0    0    0    0                    
+CONECT   11    9    0    0    0    0    0    0    0    0    0                    
+CONECT   12    3    0    0    0    0    0    0    0    0    0                    
+CONECT   13    6   15    0    0    0    0    0    0    0    0                    
+CONECT   14    6    0    0    0    0    0    0    0    0    0                    
+CONECT   15   13   16   17   18    0    0    0    0    0    0                    
+CONECT   16   15    0    0    0    0    0    0    0    0    0                    
+CONECT   17   15    0    0    0    0    0    0    0    0    0                    
+CONECT   18   15    0    0    0    0    0    0    0    0    0                    
+ENDMDL
+END

@@ -1,0 +1,165 @@
+version 1
+ molecule LIG
+    atom
+            name C00
+            initial_type    X1
+            final_type      X1
+            initial_charge -0.08390
+            final_charge    0.00000
+            initial_LJ      3.53030  0.06190
+            final_LJ        3.53030  0.06190
+    endatom
+    atom
+            name C01
+            initial_type    X2
+            final_type      X2
+            initial_charge -0.13420
+            final_charge    0.00000
+            initial_LJ      3.57930  0.06190
+            final_LJ        3.57930  0.06190
+    endatom
+    atom
+            name C02
+            initial_type    X3
+            final_type      X3
+            initial_charge -0.12810
+            final_charge    0.00000
+            initial_LJ      3.59420  0.06190
+            final_LJ        3.59420  0.06190
+    endatom
+    atom
+            name H03
+            initial_type    X4
+            final_type      X4
+            initial_charge  0.12270
+            final_charge    0.00000
+            initial_LJ      2.27590  0.03600
+            final_LJ        2.27590  0.03600
+    endatom
+    atom
+            name C04
+            initial_type    X5
+            final_type      X5
+            initial_charge -0.06720
+            final_charge    0.00000
+            initial_LJ      3.53030  0.06190
+            final_LJ        3.53030  0.06190
+    endatom
+    atom
+            name C05
+            initial_type    X6
+            final_type      X6
+            initial_charge  0.70180
+            final_charge    0.00000
+            initial_LJ      3.04710  0.06190
+            final_LJ        3.04710  0.06190
+    endatom
+    atom
+            name C06
+            initial_type    X7
+            final_type      X7
+            initial_charge -0.13250
+            final_charge    0.00000
+            initial_LJ      3.59420  0.06190
+            final_LJ        3.59420  0.06190
+    endatom
+    atom
+            name H07
+            initial_type    X8
+            final_type      X8
+            initial_charge  0.12260
+            final_charge    0.00000
+            initial_LJ      2.27590  0.03600
+            final_LJ        2.27590  0.03600
+    endatom
+    atom
+            name C08
+            initial_type    X9
+            final_type      X9
+            initial_charge -0.08440
+            final_charge    0.00000
+            initial_LJ      3.56660  0.06190
+            final_LJ        3.56660  0.06190
+    endatom
+    atom
+            name H09
+            initial_type    X10
+            final_type      X10
+            initial_charge  0.12410
+            final_charge    0.00000
+            initial_LJ      2.22600  0.03600
+            final_LJ        2.22600  0.03600
+    endatom
+    atom
+            name H0A
+            initial_type    X11
+            final_type      X11
+            initial_charge  0.12030
+            final_charge    0.00000
+            initial_LJ      2.22210  0.03600
+            final_LJ        2.22210  0.03600
+    endatom
+    atom
+            name H0B
+            initial_type    X12
+            final_type      X12
+            initial_charge  0.12310
+            final_charge    0.00000
+            initial_LJ      2.22600  0.03600
+            final_LJ        2.22600  0.03600
+    endatom
+    atom
+            name O0C
+            initial_type    X13
+            final_type      X13
+            initial_charge -0.45160
+            final_charge    0.00000
+            initial_LJ      2.93310  0.10010
+            final_LJ        2.93310  0.10010
+    endatom
+    atom
+            name O0D
+            initial_type    X14
+            final_type      X14
+            initial_charge -0.58090
+            final_charge    0.00000
+            initial_LJ      3.06940  0.10010
+            final_LJ        3.06940  0.10010
+    endatom
+    atom
+            name C0E
+            initial_type    X15
+            final_type      X15
+            initial_charge  0.00920
+            final_charge    0.00000
+            initial_LJ      3.29730  0.06190
+            final_LJ        3.29730  0.06190
+    endatom
+    atom
+            name H0F
+            initial_type    X16
+            final_type      X16
+            initial_charge  0.08550
+            final_charge    0.00000
+            initial_LJ      2.39120  0.03600
+            final_LJ        2.39120  0.03600
+    endatom
+    atom
+            name H0G
+            initial_type    X17
+            final_type      X17
+            initial_charge  0.07690
+            final_charge    0.00000
+            initial_LJ      2.39120  0.03600
+            final_LJ        2.39120  0.03600
+    endatom
+    atom
+            name H0H
+            initial_type    X18
+            final_type      X18
+            initial_charge  0.07680
+            final_charge    0.00000
+            initial_LJ      2.39120  0.03600
+            final_LJ        2.39120  0.03600
+    endatom
+end molecule
